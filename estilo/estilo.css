@@ -11,6 +11,8 @@ body {
 
 .marginBox {
   max-width: 1024px;
+  width: 100%;
+  margin: 0px auto;
 }
 
 /*topo da pagina*/
@@ -29,7 +31,7 @@ header section {
   align-items: center;
 }
 
-.marginBox p {
+header .marginBox p {
   font-size: 24px;
   color: #5d15d1;
   margin-left: 10px;
@@ -236,3 +238,49 @@ main section form {
   height: 100%;
 }
 /*parte da oferta de 50%*/
+
+.anuncios {
+  width: 100%;
+  margin: 32px auto;
+}
+
+.anuncios div h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.anuncios div h3 {
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.imageAnunc {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+
+.imageAnunc figure {
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.imageAnunc figure img {
+  width: 100%;
+}
+
+.imageAnunc figure div {
+  width: 100%;
+  padding: 12px;
+}
+
+.imageAnunc figure div h4 {
+  font-size: 16px;
+}
+
+.imageAnunc figure div p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+/*Encerro aqui a parte anuncio*/
