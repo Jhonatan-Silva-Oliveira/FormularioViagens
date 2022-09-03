@@ -59,6 +59,7 @@ main section form {
 
 .formBox {
   margin: 0 auto;
+  border: 1px solid #5d15d1;
 }
 
 .tituloForm {
@@ -93,15 +94,19 @@ main section form {
 
 .dadosBox h3 {
   font-size: 22px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
+}
+
+.inputBox {
+  margin: 15px 0;
 }
 
 .inputBox label {
   font-size: 16px;
-
+  line-height: 25px;
 }
 
-.inputBox input {
+.inputBox input, .inputBox select {
   width: 100%;
   height: 32px;
   padding: 5px;
@@ -109,10 +114,13 @@ main section form {
 
 .boxM {
   display: flex;
+  width: 100%;
+  gap: 15px;
+  margin-bottom: 15px;
 }
 
 .boxI {
-  width: 100%;
+  width: 50%;
 }
 
 .boxI input, .boxI select {
@@ -121,3 +129,45 @@ main section form {
   font-size: 16px;
   padding: 5px;
 }
+
+.select {
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.select label {
+  width: 100%;
+}
+
+.select div {
+  display: flex;
+  
+}
+
+.select div .chefPref {
+  align-items: center;
+  width: 120px;
+}
+
+.select div .chefPref input {
+  width: 15px;
+}
+
+.select div .chefPref label {
+  margin-left: 8px;
+}
+
+.dadosBox button {
+  width: 160px;
+  height: 32px;
+  background-color: #5d15d1;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 3px;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+/*Fim da parte formulario*/
