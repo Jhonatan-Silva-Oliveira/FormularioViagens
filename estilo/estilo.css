@@ -122,13 +122,13 @@ main section form {
 }
 
 .boxI {
-  width: 50%;
+  width: 100%;
 }
 
 .boxI input, .boxI select {
   width: 100%;
   height: 32px;
-  font-size: 16px;
+  font-size: 14px;
   padding: 5px;
 }
 
@@ -387,7 +387,17 @@ footer {
   }
   
   /*telas até 540px*/
-  @media screen {
+  @media screen and (max-width: 600px) {
+    .boxM {
+      display: inline-block;
+      width: 100%;
+      gap: 15px;
+      margin-bottom: 15px;
+    }
     
+    .boxI {
+      width: 100%;
+      margin: 5px 0;
+    }
   }
 }
