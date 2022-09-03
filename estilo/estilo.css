@@ -41,3 +41,83 @@ header section img {
 }
 
 /*fim do topo da pagina*/
+
+main {
+  width: 100%;
+}
+
+.backImage {
+  width: 100%;
+  background-image: url(../assets/bahia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main section form {
+  padding: 50px 0px;
+}
+
+.formBox {
+  margin: 0 auto;
+}
+
+.tituloForm {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5d15d1;
+}
+
+.tituloForm img {
+  width: 20px;
+  height: 20px;
+  rotate: -45deg;
+}
+
+.tituloForm legend {
+  font-size: 14px;
+  color: #fff;
+  margin-left: 5px;
+}
+/*topo do fomulario*/
+
+.dadosBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  padding: 30px 25px 20px 25px;
+}
+
+.dadosBox h3 {
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+
+.inputBox label {
+  font-size: 16px;
+
+}
+
+.inputBox input {
+  width: 100%;
+  height: 32px;
+  padding: 5px;
+}
+
+.boxM {
+  display: flex;
+}
+
+.boxI {
+  width: 100%;
+}
+
+.boxI input, .boxI select {
+  width: 100%;
+  height: 32px;
+  font-size: 16px;
+  padding: 5px;
+}
